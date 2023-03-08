@@ -1,0 +1,695 @@
+
+         /*barra de navegación*/
+         .navbar {
+            padding: 2rem;  
+               
+            /*180º color gris gradiente*/
+            background: rgb(52,72,83);
+            background: linear-gradient(180deg, rgb(72, 95, 107) 2%, rgba(33,58,73,1) 5%, rgba(34,59,73,1) 11%, rgba(56,96,119,1) 16%, rgba(56,96,119,1) 29%, rgba(56,96,119,1) 50%, rgba(130,142,149,1) 59%, rgba(141,149,153,1) 74%, rgba(148,153,156,1) 88%, rgba(222,214,214,0.4703258012189251) 50%);
+            border: 5px double grey;
+            border-radius: 2px;
+            transition: 2s;
+            opacity: 75%;
+            width: 100%;
+            height: 150px;
+            margin-bottom:10px;
+            
+       
+    }
+    .navbar li a{
+        color:white !important;
+        margin-right: 15px;
+        font-size: 25px;
+    }
+    
+    .nav-link:hover{
+        font-size: 35px ;
+        
+             
+    }
+    
+    
+    .navbar-collapse {
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .logoWeb {
+        width: 70px;
+        height: 80px;
+        transition: 1s;
+    }
+    .logoWeb:hover{
+        padding: 10px;
+        width: 73px;
+        height:71px;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    h1{
+        font-size: 2.9rem;
+        font-family: 'Unbounded', cursive;
+    }
+    h1 a{
+            text-decoration: none;
+            color:white
+    }
+    
+    
+                /*section hero*/
+    .hero{
+        
+        background-image: url(/img/imagenDeFondo.jpg);
+        background-repeat: no-repeat;
+        background-size: 134%;
+        opacity: 164%;
+        min-height: 450px;
+        width: 100%;
+        height: 100vw;
+        text-align: center;
+    }
+    .hero-principal {
+        padding: 3rem;
+        color:rgb(255, 255, 255);
+    }
+    
+    
+    /*imagen de perfil*/
+    .hero-imagen-desarrolador {
+        width: 109px;
+        height: 205px;
+        margin: 6px;
+        border-radius: 3% !important;
+        border: 1px solid black;
+        transition: 2s;
+    }
+    img.perfil:hover{
+            width: 168px;
+            height: 320px;
+    
+    }
+    
+    
+    .hero-principal h2{
+        font-size: 1.9rem;
+        color: #f0f0f0;
+    }
+    /*mi Historia_ sección fondo negro*/
+    .section-black{
+        background-color: black;
+        color: white;
+    }
+    .sectionTitle{
+        font-size: 2.9rem;
+        font-family: 'Unbounded', cursive;
+       
+    }
+    .sectionParrafer{
+        font-size: 1.7rem;
+        
+    }
+    p.sectionParrafer:hover{
+        color: #a3cc93;
+    
+    }
+    
+    
+    section.miHistoria{
+        width: 100%;
+        height: 500px;
+        padding: 500px;
+        display: flex;
+    }
+    div.cont{
+    
+        width: 874px;
+        max-height: 800px;
+        justify-content: center;
+        
+    }
+    
+    
+    
+    /*section experiencias--------------------->
+    /*----------------------------------------->
+    */
+    
+    section.misExp{
+        width: 100%;
+        height: 900px;
+        display: grid;
+        margin: 50px;
+        text-align:center;
+        font-family: 'Unbounded', cursive;   
+        
+    }
+    .misExp div{
+        overflow: hidden;
+        
+    }
+    
+    .experiencias{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 30px;
+        padding: 20px;
+        flex-wrap: wrap;
+        
+    
+    }
+    .experiencias div{
+        width: 48%;
+        height:  200px;
+    }
+    .misExp img{
+        width: 272px;
+        height: 191px;
+        transition: 4s;
+    }
+    
+    
+    
+    /*----------------------
+    ----------------------cubo de imágenes background*/
+    
+    .formación{
+        width: 40%;
+        height: 344px;
+        margin: 8px;
+        padding: 5px;
+        flex-wrap: wrap;
+     
+    }
+    
+     .formacionImg:hover{
+        margin-top: -600px;
+    
+    }
+    .fomacionAcademica{
+        display: inline;
+        width: 80%;
+        padding: 10px;
+    }
+    .formacion p{
+        width: 100%;
+        font-size:20px ;
+    
+    }
+    .formacion h3{
+        width: 100%;
+        margin-top:20px
+    }
+    
+    .listaExpLab li{
+        width: 100%;
+        font-size: 10px;
+        margin-top:5px;
+        list-style:none;
+    }
+    
+    .expLab{
+        width: 40%;
+        height: 300px;
+        margin: 8px;
+        padding: 5px;
+     
+    }
+    
+    
+    .expImg:hover{
+        margin-top: -500px;
+    }
+    .contenedorFram{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    .framework{
+        width: 100%;
+        height: 500px;
+        margin: 8px;
+        padding: 5px;    
+    
+    
+    }
+    .contenedorFram{
+        width: 100%;
+        height: 100%;
+        display:flex;
+    
+    }
+    .contenedorFram ul{
+        width: 100%;
+        height: 200px;
+    }
+    .framework h3{
+        width: 100%;
+        height: 20%;
+    }
+    .framework li{
+        list-style: none;
+        font-size: 5px;
+        display: inline;
+        
+    }
+    
+    .progress.prog{
+        width: 100%;
+        height: 50px;
+    
+    }
+    .progress-bar{
+        width: 75%;
+        font-size: 10px;
+    }
+    .framework span{
+        width:50px;
+        display:block;
+    }
+    
+    .framImg:hover{
+        margin-top:-550px;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .expDesarrolador{
+        width: 41%;
+        height: 400px;
+        margin: 8px;
+        padding: 5px;
+    }
+    
+    .desImg:hover{
+        margin-top:-1000px;
+    
+    }
+    
+    .listDesarrolo{
+        flex-direction: column;
+        width: 100%;
+    
+    }
+    
+    
+    .contenedorProgressBar{
+        width: 100%;
+    }
+    
+    
+    
+    .expDesarrolador li{
+        list-style: none;
+        width: 100%;
+        height: 30px;
+        margin: 20px;
+        font-size: 25px;
+        font-family: 'Unbounded', cursive;
+        display: flex;  
+        justify-content: center;  
+    
+    }
+    .progress-bar{
+        width: 90px;
+        max-height: 25px;
+        margin-top:10px;
+        margin-left: 30px;
+    }
+    
+    
+    
+    span{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        margin-right: 15px;
+    }
+    .progress{
+        max-height: 20px;
+        display: flex;
+    }
+    
+    .contenedorProgressBar{
+        width: 100%;
+        display: inline-block;
+        max-height: 200px;
+        margin-top:10px;
+        
+        
+    }
+    
+    
+    .progress-bar{
+        background-color:rgba(52,72,83,1);
+        height: 100%;
+        margin-top: -5px;
+        margin-left: -6px;
+    }
+    
+    .html_progress{
+        width: 80% important! ;
+    }
+    
+    
+    /*-----------------------Nueva edicion del cubo img de paginas------------------------
+    */
+    
+    
+    
+    
+    
+    
+           /*PIE DE PAGINA*/ 
+    footer.pieDePagina{
+        background: rgb(71, 94, 107);
+        background: linear-gradient(180deg, rgb(72, 95, 107) 2%, rgb(60, 93, 114) 4%, rgb(49, 80, 99) 9%, rgba(56,96,119,1) 16%, rgba(56,96,119,1)
+        20%, rgba(56,96,119,1) 40%, rgba(130,142,149,1) 59%, rgba(141,149,153,1) 74%, rgba(148,153,156,1) 88%, rgba(222,214,214,0.4703258012189251) 50%);
+        display: flex;
+        width: 100vw;
+        font-family: 'Unbounded', cursive;
+        
+    }
+    
+    /*color de pie de pagina gradiente 0º*/
+    .tituloPieDePagina{
+        width: 100%;
+        text-align: center;
+    }
+    .tituloPieDePagina h3{
+        padding: 5px;
+        text-align: start;
+        margin: 25px;
+    }
+    
+    
+    footer ul{
+        width: 100%;
+        list-style: none;
+        color:black;
+        align-items: center;
+    }
+    
+    footer li{
+    
+        margin: 20px;
+    
+    }
+    
+    
+    footer a{
+        margin:.8rem;
+        padding: .6rem;
+        text-decoration: none;
+        color:black;
+        font-weight:900;
+        font-size: 21px;
+        font-family: 'Unbounded', cursive;
+       
+    
+    
+    }
+    .facebook:hover{
+        background-color : blue;
+        color:white;
+        transition: background-color 2s;
+    }
+    
+    
+    .telegram:hover{
+        background-color : #0d6efda3;
+        color:white;
+        transition: background-color 2s;
+       
+        
+    }
+    
+    
+    .wathsapp:hover{
+        background-color: #509c33;
+        color:white;
+        transition: background-color 2s;
+    }
+    
+    .instagram:hover{
+        background-color : rgba(219, 96, 137, 0.918);
+        color:white;
+        transition: background-color 2s;
+    }
+    
+    
+    .gmail:hover{
+        background-color :rgb(255, 51, 0);
+        color:white;
+        transition: background-color 2s;
+    }
+    
+    .linkedin:hover{
+        background-color : rgb(65, 65, 245);
+        color:white;
+        transition: background-color 2s;
+    }
+    
+    .github:hover{
+        background-color : rgb(10, 10, 24);
+        color:white;
+        transition: background-color 2s;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        /*logo responsibe*/
+
+
+@media screen and (max-width:1026px){
+        .navbar{
+        width: 828px;
+        margin-left: 50px;;
+        
+        }
+        .navbar img{
+            width: 57px;
+            height: 64px
+        } 
+        .navbar-brand{
+            margin-left: 25px;
+        }
+        .hero-imagen-desarrolador{
+        margin-right: 90px;
+        margin-top: 90px;
+        }
+        .tituloHero{
+        margin-top:50px;
+        font-size: 30px;
+        margin-right: 50px;
+        }
+        .hero-inferior img{
+        width: 390px;
+        height: 270px;
+
+        }       
+        .miHistoria{
+        display: flex;
+
+        }
+        .cont {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        margin-left: 56px;
+
+
+        }
+        .cont h2{
+        font-size:18px ;
+        }
+        .cont p{
+        font-size: 15px;
+        width: 60%;
+                    }
+                  
+        .experiencias{
+            width: 82%;   
+            margin-right: 15px;                     
+        }
+        .tituloPieDePagina h3{
+            text-align: center;
+        }
+        .misExp h3{
+            width: 80%;
+            margin-right:10px ;
+        }
+                
+}
+        /*logo responsibe*/
+        
+    @media screen and (max-width: 780px){
+        .navbar{
+            height: 95px;
+            margin-left: -3px;
+            width: 100%;
+                        
+        }
+        
+        .navbar img{
+            width: 50px;
+            height: 60px;
+        }
+
+        .navbar a{
+            color:white;
+            opacity: none;
+            display: block;
+            flex-direction: column;
+            
+        }
+        .hero-imagen-desarrolador {
+            width: 120px;
+            height: 175px;
+        }
+        .hero{
+            width:105%;
+            height: 140vw;
+            
+        }
+        .hero h1{
+            margin-top: -20px;
+            font-size: 40px;
+            color:white;
+        }
+        .hero a{
+            color:white;
+        }
+        .hero h2{
+            margin-top: 100px;
+            
+        }
+        .hero-inferior-imagen{
+            width: 332px;
+            margin-top: 10px;
+        }
+    
+        .tituloPieDePagina h3{ 
+            text-align: center;
+            
+    }
+        .cont h2{
+            font-size: 30px;
+    
+        }
+        .cont p{
+            font-size: 20px;
+    
+        }
+
+
+
+
+
+
+        @media screen and (max-width: 399px){
+            
+            body{
+                width: 100vh;
+                height: 100vw;
+            }
+            
+            
+            .navbar{
+                width: 100%;
+                height: 90px;
+                margin-left: 90px;
+                            
+            }
+            .hero-principal{
+                width: 100%;
+                height: 300px;
+                background-image: none;
+                margin-top: 300px;
+                margin-left: 90px;
+            }
+
+            .hero h1{
+                
+             font-size: 18px;
+
+            }
+            
+            .hero h2{
+            font-size: 12px;
+            margin-top: -5px;
+            margin-bottom:20px ;
+
+}
+            .hero-inferior img{
+                width: 150px;
+                height: 90px;
+
+            }
+
+            .perfil{
+                width: 150px;
+                height: 170px;
+            }
+            .tituloPieDePagina{
+                background-color: white;
+                text-align: center;
+                
+            }
+            #listaPieDePagina{
+                width: 100%;
+                display: flex;
+                text-align: center;
+
+            }
+            footer ul{
+                background-color: white;
+                width: 100%;
+                border-color: none;
+            }
+    
+
+
+
+            @media screen and (max-width: 399px){
+                .hero{
+                    width: 100%;
+                    height:100%;
+                }
+                .perfil{
+                    margin-top: -120px;
+                }
+                .hero-inferior img{
+                    width: 50%;
+                    height:100px;
+                }
+
+        }
+
+
