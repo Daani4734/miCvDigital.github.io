@@ -496,10 +496,11 @@ footer a{
     /*logo responsibe*/
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .navbar{
         width: 111vh;
         transition: .5s;
+        margin-left:9px;
     }
     .navbar ul{
         margin-right: 150px;
