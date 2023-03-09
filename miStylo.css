@@ -66,7 +66,7 @@ h1 a{
             /*section hero*/
 .hero{
     
-    background-image: url(/img/imagenDeFondo.jpg);
+    background-image: url(img/imagenDeFondo.jpg);
     background-repeat: no-repeat;
     background-size: 134%;
     opacity: 164%;
