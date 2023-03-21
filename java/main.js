@@ -2,7 +2,7 @@
 let Toggle = document.getElementById('Toggle').style.background = 'rgba(56,96,119,1)', trasnsition ='5s';
 let miVercel = document.getElementById('miWebSide');
 let contacto = document.getElementById('miLinkContacto');
-let perfil = document.querySelector('miLinkPerfil');
+let perfil = document.querySelector('#miLinkPerfil');
 
 
 
