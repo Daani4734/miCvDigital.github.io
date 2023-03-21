@@ -13,5 +13,5 @@ miVercel.addEventListener('click', () =>{
 
 
 perfil.addEventListener('focus', ()=>{
-    window.location.href = "img/imgCurricula.gif";
+    window.location.href = "https://github.com/Daani4734/miCvDigital.github.io/blob/main/img/imgCurricula.gif";
 });
